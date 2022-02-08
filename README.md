@@ -93,14 +93,14 @@ nano backend/connector/credentials.yml
 ```
 Change the Following : Line no 9 : ```connector.MyIO.senderidInput:``` to ```connector.MyIO.exampleInput:```
 
-Step 6) Save and Exit. Voila Your Custom REST API Endpoint is ready to be deployed. 
+Step 6) Save and Exit. Your Custom REST API Endpoint is ready to be deployed. 
 
-Step 7). Rebuild and Restart the docker
+Step 7) Rebuild and Restart the docker
 
 ```
 docker-compose down
 docker-compose build
 docker-compose up -d
 ```
-
+Step 8) Now you can send POST request to ```http://ip:5005/webhooks/example/webhook```
 
