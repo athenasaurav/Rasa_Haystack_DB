@@ -7,18 +7,9 @@ While Rasa is used for the whole flow of the dialogue and intent management,
 Haystack is used to answer the long tail of "knowledge queries" that can be answered by searching an answer in a document corpus. 
 This example repo sketches how to use the _fallback intent_ or an dedicated _knowledge base intent_ to offload such queries to haystack.
 
-After initializing a plain rasa project (`rasa init`) changes were made to
-- domain.yml
-- config.yml 
-- data/nlu.yml
-- data/rules.yml
-- actions/actions.py
-
-More details can be found at [this page](https://haystack.deepset.ai/usage/chatbots)!
-
 ## Get Started
 
-- Start the Haystack REST API and a demo DocumentStore, RASA along with SQLiteDB via Docker:
+- Start the Haystack REST API and a demo DocumentStore along with RASA along connected tracker store to SQLiteDB via Docker:
 ```
 git clone https://github.com/athenasaurav/rasa_haystack_db.git
 cd rasa_haystack_db
