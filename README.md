@@ -142,3 +142,8 @@ tracker_store:
 ```
 
 Set your Databse url, DB name and DB path accordingly. Incase if we dont change anything it will create a default rasa.db in docker which will only be accessiable inside docker. 
+
+
+# RUN RASA WITH EXTERNAL HAYSTACK
+
+To run RASA Only with SQLite DB Tracker Store Please visit [RASA_without_Haystack](https://github.com/athenasaurav/RASA_EXT_HayStack.git)
