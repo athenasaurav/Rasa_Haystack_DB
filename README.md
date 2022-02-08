@@ -27,11 +27,11 @@ docker-compose up -d
 ``` 
 - This will automatically train a model in this repository with `rasa train`  
 
-## Interacting with RASA
+# Interacting with RASA
 
 - To Interact with rasa we can use either of the following endpoints.
 
-# Using Default REST
+## Using Default REST
 
 - Send POST request to ```http://ip:5005/webhooks/rest/webhook
 - Request format should be like :
@@ -49,7 +49,7 @@ docker-compose up -d
 }
 ```
 
-# Using custom REST channel named senderid
+## Using custom REST channel named senderid
 
 - Send POST request to ```http://ip:5005/webhooks/senderid/webhook
 - Request format should be like :
