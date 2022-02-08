@@ -7,11 +7,9 @@ While Rasa is used for the whole flow of the dialogue and intent management,
 Haystack is used to answer the long tail of "knowledge queries" that can be answered by searching an answer in a document corpus. 
 This example repo sketches how to use the _fallback intent_ or an dedicated _knowledge base intent_ to offload such queries to haystack.
 
-## Get Started
+#  Installing and checking dependencies. 
 
-#  Do from here for the first time after cloning the repository
-
-# To check the docker version
+## To check the docker version
 
 <code>docker -v && docker-compose -v</code>
 
@@ -28,6 +26,8 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 <hr>
+
+# Get Started
 
 - Start the Haystack REST API and a demo DocumentStore along with RASA connected to custome tracker store using SQLiteDB via Docker:
 ```
