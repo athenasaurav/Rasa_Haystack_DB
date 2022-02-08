@@ -9,6 +9,26 @@ This example repo sketches how to use the _fallback intent_ or an dedicated _kno
 
 ## Get Started
 
+#  Do from here for the first time after cloning the repository
+
+# To check the docker version
+
+<code>docker -v && docker-compose -v</code>
+
+**If this returns an error do the following steps else jump  to building an image**
+
+
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+```
+
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose 
+sudo chmod +x /usr/local/bin/docker-compose
+```
+<hr>
+
 - Start the Haystack REST API and a demo DocumentStore along with RASA connected to custome tracker store using SQLiteDB via Docker:
 ```
 git clone https://github.com/athenasaurav/Rasa_Haystack_DB.git
