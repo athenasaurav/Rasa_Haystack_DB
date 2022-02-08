@@ -78,11 +78,11 @@ nano actions/connector/MyIO.py
 
 Step 2) Make these following changes in the ```MyIO.py``` file. For Ex: If you want the custom REST url should be ```/webhooks/example/webhook``` instead of ```/webhooks/senderid/webhook```
 
-   a) Change Line no. 12, Class name from ```class senderidInput(InputChannel):``` to ```class exampleInput(InputChannel):```
-   b) Change Line no. 15, Return name from ```return "senderid"``` to ```return "example"```
-   c) Change Line no. 104, collector form ```collector = senderidOutput()``` to ```collector = exampleOutput()```
-   d) Change Line no. 130, Class name from ```class senderidOutput(CollectingOutputChannel):``` to ```class exampleOutput(CollectingOutputChannel):```
-   e) Change Line no. 133, Return name from ```return "senderid"``` to ```return "example"```
+a) Change Line no. 12, Class name from ```class senderidInput(InputChannel):``` to ```class exampleInput(InputChannel):```
+b) Change Line no. 15, Return name from ```return "senderid"``` to ```return "example"```
+c) Change Line no. 104, collector form ```collector = senderidOutput()``` to ```collector = exampleOutput()```
+d) Change Line no. 130, Class name from ```class senderidOutput(CollectingOutputChannel):``` to ```class exampleOutput(CollectingOutputChannel):```
+e) Change Line no. 133, Return name from ```return "senderid"``` to ```return "example"```
 
 Save this changes. 
 
