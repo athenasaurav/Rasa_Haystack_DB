@@ -150,4 +150,4 @@ To run RASA Only with SQLite DB Tracker Store Please visit [RASA_without_Haystac
 
 # HayStack Official Documentation
 
-To Read More about official implementation of HayStack and its tutorial. Please Visit (HayStack Documentation](https://github.com/athenasaurav/Rasa_Haystack_DB/blob/main/Haystack.md)
+To Read More about official implementation of HayStack and its tutorial. Please Visit [HayStack Documentation](https://github.com/athenasaurav/Rasa_Haystack_DB/blob/main/Haystack.md)
