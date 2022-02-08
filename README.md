@@ -104,3 +104,20 @@ docker-compose up -d
 ```
 Step 8) Now you can send POST request to ```http://ip:5005/webhooks/example/webhook```
 
+## Customizing Custom Tracker Store
+
+To Customize Tracker Store we can set it in ```backend/endpoints.yml```
+
+```
+tracker_store:
+    type: SQL
+    dialect: "sqlite"  # the dialect used to interact with the db
+    url: "sqlite:///./rasa.db"  # (optional) host of the sql db, e.g. "localhost"
+    db: "rasa.db"  # path to your db
+    username:  # username used for authentication
+    password:  # password used for authentication
+    query: # optional dictionary to be added as a query string to the connection URL
+      driver: my-driver
+```
+
+Set your Databse url, DB name and DB path accordingly. Incase if we dont change anything it will create a default rasa.db in docker which will only be accessiable inside docker. 
