@@ -11,8 +11,8 @@ This example repo sketches how to use the _fallback intent_ or an dedicated _kno
 
 - Start the Haystack REST API and a demo DocumentStore along with RASA along connected tracker store to SQLiteDB via Docker:
 ```
-git clone https://github.com/athenasaurav/rasa_haystack_db.git
-cd rasa_haystack_db
+git clone https://github.com/athenasaurav/Rasa_Haystack_DB.git
+cd Rasa_Haystack_DB
 docker-compose build
 docker-compose up -d
 ``` 
