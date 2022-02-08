@@ -147,3 +147,7 @@ Set your Databse url, DB name and DB path accordingly. Incase if we dont change 
 # RUN RASA WITH EXTERNAL HAYSTACK
 
 To run RASA Only with SQLite DB Tracker Store Please visit [RASA_without_Haystack](https://github.com/athenasaurav/RASA_EXT_HayStack.git)
+
+# HayStack Official Documentation
+
+To Read More about official implementation of HayStack and its tutorial. Please Visit (HayStack Documentation](https://github.com/athenasaurav/Rasa_Haystack_DB/blob/main/Haystack.md)
