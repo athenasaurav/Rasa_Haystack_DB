@@ -13,7 +13,7 @@ This example repo sketches how to use the _fallback intent_ or an dedicated _kno
 
 <code>docker -v && docker-compose -v</code>
 
-**If this returns an error do the following steps else jump  to building an image**
+**If this returns an error do the following steps else jump to [Getting Stared](https://github.com/athenasaurav/Rasa_Haystack_DB/blob/main/README.md#get-started)**
 
 
 ```
