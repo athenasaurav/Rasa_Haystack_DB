@@ -51,7 +51,7 @@ docker-compose up -d
 
 ## Using custom REST channel named senderid
 
-- Send POST request to ```http://ip:5005/webhooks/senderid/webhook
+- Send POST request to ```http://ip:5005/webhooks/senderid/webhook```
 - Request format should be like :
 ```
 {
