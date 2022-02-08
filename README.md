@@ -13,14 +13,15 @@ This example repo sketches how to use the _fallback intent_ or an dedicated _kno
 
 <code>docker -v && docker-compose -v</code>
 
-**If this returns an error do the following steps else jump to [Getting Stared](https://github.com/athenasaurav/Rasa_Haystack_DB/blob/main/README.md#get-started)**
+**If this returns an error do the following steps else jump to [Getting Stared](https://github.com/athenasaurav/Rasa_Haystack_DB/blob/main/README.md#get-started) else install**
 
+Docker :
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
-
+Docker Compose :
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose 
 sudo chmod +x /usr/local/bin/docker-compose
