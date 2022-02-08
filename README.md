@@ -33,7 +33,7 @@ docker-compose up -d
 
 ## Using Default REST
 
-- Send POST request to ```http://ip:5005/webhooks/rest/webhook
+- Send POST request to ```http://ip:5005/webhooks/rest/webhook```
 - Request format should be like :
 ```
 {
