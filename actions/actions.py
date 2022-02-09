@@ -21,18 +21,20 @@ class ActionHaystack(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        url = "http://localhost:8000/query"
+        url = "http://194.195.119.120:8000/query"
         payload = {"query": str(tracker.latest_message["text"])}
         headers = {
             'Content-Type': 'application/json'
         }
-        response = requests.request("POST", url, headers=headers, json=payload).json()
-
-        if response["answers"]:
-            answer = response["answers"][0]["answer"]
-        else:
-            answer = "No Answer Found!"
+        try:
+            response = requests.request("POST", url, headers=headers, json=payload).json()
+            if response["answers"]:
+                answer = response["answers"][0]["answer"]
+            else:
+                answer = "No Answer Found!"
 
         dispatcher.utter_message(text=answer)
-
+        except:
+            dispatcher.utter_message(text="An Unknown error took place. Please Check Haystack URL http://194.195.119.120:8000/query")
+    
         return []
