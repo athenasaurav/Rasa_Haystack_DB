@@ -33,7 +33,7 @@ class ActionHaystack(Action):
             else:
                 answer = "No Answer Found!"
 
-        dispatcher.utter_message(text=answer)
+            dispatcher.utter_message(text=answer)
         except:
             dispatcher.utter_message(text="An Unknown error took place. Please Check Haystack URL http://194.195.119.120:8000/query")
     
